@@ -9,8 +9,6 @@ header {
     padding: 24px 0 0 48px;
 }
  
-/* StarUp Animation code */
- 
 @keyframes example {
   from {opacity: 0; scale: 0;}
   to {opacity: 0.8; scale: 1; }
@@ -49,32 +47,32 @@ hr {
     display: flex;
     flex-direction: column;
     gap: 50px;
-    align-items: end;/* this code will make the .about-item to the Right side of the .about-list*/
+    align-items: end;
 }
  
 .about-item {
     display: flex;
     align-items: center;
-    justify-content: space-around; /*using this we can give space around the items for the child in horizontal direction*/
-    width: 80%; /*Given width in percentage for more responsive UI*/
+    justify-content: space-around; 
+    width: 80%; 
 }
  
 .about-icon {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /*Add a font family to the number*/
-    width: 75px; /*Increase the width*/
-    height: 75px; /*Increase the height*/
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    width: 75px; 
+    height: 75px; 
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 37px; /*Increase the font size*/
+    font-size: 37px; 
     font-weight: bold;
     color: white;
     flex-shrink: 0;
-    opacity: 0.8; /*decrease the opacity*/
+    opacity: 0.8;
     box-shadow: 0 2px 8px rgba(0,0,0,0.04);
-    animation-name: example; /*For animation to apply we need to add animation here using animation-name */
-    animation-duration: 2s; /*duration to finish the animation*/
+    animation-name: example; 
+    animation-duration: 2s; 
 }
  
 .black-bg {
@@ -91,7 +89,7 @@ hr {
     max-width: 600px;
 }
 .about-icon:hover{
-    opacity: 1; /*For optional I add Hover action when ever hover on the .about-icon the opacity will change to 1*/
+    opacity: 1; 
 }
  
 @media (max-width: 700px) {
@@ -115,4 +113,5 @@ footer{
     bottom: 0;
     
 }
+
  
